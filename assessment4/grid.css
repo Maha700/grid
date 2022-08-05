@@ -1,0 +1,334 @@
+.offerings{
+   background: linear-gradient(
+    to right,
+    red,
+    green,
+    yellow
+   );
+   font-size: 25px;
+   font-weight: bolder;
+   text-decoration: underline; 
+   text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.menu{
+  background-color:deepskyblue;
+  border: 2px solid red;
+  border-radius: 20px;
+  width:800px;
+  height: 60px;
+  font-family: 'Times New Roman', Times, serif;
+  left:20%;
+  position: relative;
+  text-align: center;
+}
+ul{
+  display: inline-block;
+  line-height: 1.2;
+  padding: 0;
+  margin: 0;
+}
+.lorem-container{
+height: 150px;
+  border: 1px solid purple;
+  border-radius: 20px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-evenly;
+  background-color: rgb(9, 230, 230);
+}
+.box1{
+   width:420px;
+   height: 70px;
+   border: 2px solid green;
+   border-radius: 10px;
+   background-color: aquamarine;
+}
+.text1{
+  font-weight: bolder;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+  margin: 0;
+  text-align: center;
+}
+.box2{
+    width:420px;
+    height: 70px;
+    border: 2px solid green;
+    border-radius: 10px;
+    background-color: aquamarine;
+ }
+ .text2{
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    margin: 0;
+    text-align: center;
+ }
+ .box3{
+    width:420px;
+    height: 70px;
+    border: 2px solid green;
+    border-radius: 10px;
+    background-color: aquamarine;
+ }
+ .text3{
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    margin: 0;
+    text-align: center;
+ }
+ .box4{
+    width:420px;
+    height: 70px;
+    border: 2px solid green;
+    border-radius: 10px;
+    background-color: aquamarine;
+    padding-left: 4px;
+    padding-right: 4px;
+ }
+ .text4{
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    margin: 0;
+    text-align: center;
+    
+ }
+ .box5{
+    width:400px;
+    height: 100px;
+    border: none;
+ }
+ .box6{
+    width:400px;
+    height: 100px;
+    border: none;
+ }
+ .hr1{
+   top:-10px;
+   position: relative;
+ }
+ .jee{
+    height: 30px;
+    background-image: linear-gradient(
+    to right,
+      rgb(214, 29, 29) , yellow, rgb(214, 29, 29)
+    );
+    text-align: center;
+    margin: 0%;
+    text-decoration: underline;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    
+ }
+ .mark-container{
+    height: 200px;
+    background-image: radial-gradient(
+      blue,
+       lightblue,
+       green
+    );
+    border: 2px solid green;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-evenly;
+   padding-top: 50px;
+ }
+ .name1{
+   width:200px;
+   height: 110px;
+   border: 3px solid maroon;
+   border-radius: 10px;
+   text-align: center;
+   line-height: 1;
+   font-family: 'Times New Roman', Times, serif;
+   text-decoration: underline;
+   color: maroon;
+   background-color: yellow;
+   font-weight:bolder ;
+ }
+ .name2{
+   width:200px;
+   height: 110px;
+   border: 3px solid maroon;
+   border-radius: 10px;
+   text-align: center;
+   line-height: 1;
+   font-family: 'Times New Roman', Times, serif;
+   text-decoration: underline;
+   color: maroon;
+   background-color: yellow;
+   font-weight:bolder ;
+ }
+ .name3{
+   width:200px;
+   height: 110px;
+   border: 3px solid maroon;
+   border-radius: 10px;
+   text-align: center;
+   line-height: 1;
+   font-family: 'Times New Roman', Times, serif;
+   text-decoration: underline;
+   color: maroon;
+   background-color: yellow;
+   font-weight:bolder ;
+ }
+ .name4{
+   width:200px;
+   height: 110px;
+   border: 3px solid maroon;
+   border-radius: 10px;
+   text-align: center;
+   line-height: 1;
+   font-family: 'Times New Roman', Times, serif;
+   text-decoration: underline;
+   color: maroon;
+   background-color: yellow;
+   font-weight:bolder ;
+ }
+ .place{
+    height: 384px;
+    border: 1px solid;
+   display: grid;
+   grid-template-columns: auto auto auto auto;
+   gap:10px;
+ }
+ .best{
+ height: 40px;
+   background-color: red;
+   color: white;
+   text-align: center;
+   font-size: 22px;
+   font-family: 'Times New Roman', Times, serif;
+   font-weight: bolder;
+   letter-spacing: 2px;
+   border: 1px solid maroon;
+   grid-column: 1/5;
+   grid-row: 1;
+ }
+ .doubt{
+    width:400px;
+    height: 80px;
+    background-color: lightgreen;
+    color: white;
+    border: 1px solid;
+ }
+ .p1{
+   font-size: 30px;
+   font-weight: bolder;
+   font-family: 'Times New Roman', Times, serif;
+   margin: 0;
+   text-align: center;
+ }
+ .course{
+  width:400px;
+  height: 80px;
+  background-color: lightskyblue;
+  color: white;
+  border: 1px solid;
+}
+.p2{
+ font-size: 30px;
+ font-weight: bolder;
+ font-family: 'Times New Roman', Times, serif;
+ margin: 0;
+ text-align: center;
+}
+.assure{
+  width:400px;
+  height: 80px;
+  background-color: blue;
+  color: white;
+  border: 1px solid;
+}
+.p3{
+ font-size: 20px;
+ font-weight: bolder;
+ font-family: 'Times New Roman', Times, serif;
+ margin: 0;
+ text-align:left;
+}
+.study{
+  width:80px;
+  height: 300px;
+  background-color: black;
+  color: white;
+  border:1px solid ;
+  margin: 0;
+  padding-left: 1%;
+  line-height: 1;
+  grid-column: 4;
+  grid-row: 2/3;
+}
+.material1{
+ font-family: 'Times New Roman', Times, serif;
+ font-size: 18px;
+ text-align:left;
+ margin: 0;
+ }
+ .material2{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+  text-align:left;
+  margin: 0;
+  }
+.material3{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+  text-align:left;
+  margin: 0;
+  }
+  .material4{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+  text-align:left;
+  margin: 0;
+  }
+  .material5{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+  text-align:left;
+  margin: 0;
+  } 
+  .material6{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    text-align:left;
+    margin: 0;
+    }
+.para{
+width: 92.5%;
+height:200px;
+background-color: orange;
+color: white;
+ grid-column: 1/5;
+ grid-row: 3;
+ top: -220px;
+ position: relative;
+}
+  .p6{
+   font-size: 22px;
+   font-weight: bolder;
+   margin: 0;
+   font-family: 'Times New Roman', Times, serif;
+  }
+ .all{
+  height: 20px;
+  background-color: aquamarine;
+  color: black;
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row: 4;
+  top:-210px;
+  position: relative;
+ }
+    
+   .p7{
+      font-size: 20px;
+      font-weight: bolder;
+      margin: 0;
+      text-align: center;
+      font-family: 'Times New Roman', Times, serif;
+   } 
